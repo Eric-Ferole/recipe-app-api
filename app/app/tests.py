@@ -2,11 +2,11 @@
 Sample test
 """
 
-from django.test import TestCase
+from django.test import SimpleTestCase
 
 from app import calc
 
-class CalcTests(TestCase):
+class CalcTests(SimpleTestCase):
     """Test the calc module."""
 
     def test_add_numbers(self):
